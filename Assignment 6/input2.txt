@@ -1,0 +1,4 @@
+y := (a + b) * (c - d) / 2
+z := not a < b and c >= d
+p := a + b * c < d - 1
+q := a +* b

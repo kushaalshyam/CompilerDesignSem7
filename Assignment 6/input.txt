@@ -1,0 +1,2 @@
+a := b * -c + b* -c
+x:= a<b or c<d and e<f

@@ -1,0 +1,11 @@
+a = 4 * 8
+b = a + 2
+c = x * 8
+d = y ** 2
+e = z * 2
+f = w - w
+g = c + 0
+c = 7
+h = 10 / 2
+k = m * 0
+live: b, c, d, e, f, g, h, k

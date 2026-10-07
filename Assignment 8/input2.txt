@@ -1,0 +1,8 @@
+a = 8
+b = 3
+if a > b goto L1
+c = a - b
+goto L2
+L1: c = a * b
+L2: t1 = c % 5
+d = -t1

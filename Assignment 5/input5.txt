@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n = 5, sum = 0, i;
+    bool done = false;
+    cin >> n;
+    for (i = 0; i < n; i++)
+    {
+        if (i % 2 == 0 && i != 4)
+            sum = sum + i * 2;
+        else
+            sum = sum - 1;
+    }
+    cout << "Sum = " << sum << endl;
+    return 0;
+}
